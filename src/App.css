@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homePagerapper {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  color: #fff;
+  height: 100vh;
+
 }
 
-.App-link {
-  color: #61dafb;
+.formWrapper{
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+
+}
+footer{
+  position : fixed;
+  bottom: 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer b{
+  color: blue;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: 14px;
+  font-weight: bold;
+
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+
+}
+
+.joinBtn , .leaveBtn{
+  background: #38B6FF;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover, .leaveBtn:hover{
+  background: #096BA4
+}
+
+.copyBtn:hover {
+  background: #C2BEBE;
+
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.createNewBtn {
+  color: #38B6FF;
+  text-decoration: none;
+  border-bottom: 1px solid #38B6FF;
+}
+.createNewBtn:hover, b:hover {
+  color:#096BA4;
+  border-color: #096BA4;
+  cursor: pointer;
+}
+.a:hover, b:hover {
+  color: #096BA4;
+  border-color: #096BA4;
+  cursor: pointer;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 238px 1fr;
+ 
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction:column;
+}
+
+.asideInner{ 
+  flex: 1;
+
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+
+}
+
+.userName{
+  margin-top: 10px;
+
+}
+
+.logo  {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 18px;
+}
+.logoImage {
+  height: 60px;
+  
+}
+.leaveBtn {
+  margin-top: 20px;
+  width: 100%;
+
+
+}
+
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 15px;
+  line-height: 1.5;
+  padding-top: 20px;
+
 }
