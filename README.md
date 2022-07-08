@@ -1,12 +1,24 @@
-# Getting Started with Create React App
+# Code Share - A Realtime Code Sharing Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is deployed on heroku [Visit ](https://code-share-pd.herokuapp.com/).
 
-## Available Scripts
+## Installation Guide -  Step By Step
 
 In the project directory, you can run:
 
-### `npm start`
+## Create a project folder and open it in VS-Code 
+## Create a react application and install npm dependencies - 
+### `npm create-react-app ./`
+
+## Install uuid package for creating new remote id
+### `yarn add uuid`
+
+## Install react-toast for enabling toast notification in web app.
+###  `yarn add react-hot-toast` 
+
+## Install Avatar library
+### npm install react-avatar
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
