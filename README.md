@@ -65,7 +65,7 @@ Setup npm toast notification packages and react avtar for generating name avatar
     $ npm add -D nodemon  
     
 **Final Thoughts**   <br />
-All required steps done for setup the code of this application in local envirorment. If there is any mistake or suggestions for new feature update please feel free to create issue for more interesting changes.
-**Cheers 🥂**
+All required steps done for setup the code of this application in local envirorment. If there is any mistake or suggestions for new feature update please feel free to create issue for more interesting changes.    <br />
+**Cheers 🥂** 
 
         
